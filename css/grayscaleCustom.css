@@ -39,7 +39,7 @@ p {
     margin: 0 0 25px;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
+    text-align: justify;
 }
 
 @media(min-width:768px) {
@@ -188,6 +188,7 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
+        text-align: center;
         font-size: 26px;
     }
 }
@@ -325,6 +326,21 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+
+.pcenter {
+    text-align: center;
 }
 
 ::-moz-selection {
