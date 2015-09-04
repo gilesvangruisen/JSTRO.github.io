@@ -19,11 +19,11 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   color: #423f37;
-  margin: 0.8rem 0;
+  margin: 0.5rem 0;
 }
 
-h2 {
-  font-size: 1.2rem;
+h2, h3 {
+  font-size: 1rem;
 }
 
 section {
@@ -41,13 +41,10 @@ ul {
 
 .container {
   margin: 0 auto;
+  margin-top: 2rem;
   width: 480px;
   max-width: 100%;
   padding: 0 1rem;
-}
-
-.subtitle {
-  font-size: 1rem;
 }
 
 li {
@@ -55,7 +52,8 @@ li {
 }
 
 .wide-list {
-  padding-left: 1rem;
+  margin: 0.5rem 0;
+  padding-left: 0.5rem;
 }
 
 .inline-list {
